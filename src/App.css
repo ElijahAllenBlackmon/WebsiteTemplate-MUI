@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amatic+SC&family=Press+Start+2P&display=swap');
 
 body {
+    margin: 0;
     font-family: 'Alata', sans-serif;
+    background: #F6E0B5;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    border: .25rem solid transparent;
+    border-radius: 2rem;
+    background-color: #bebebe;
+    background-clip: padding-box;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
 }

@@ -1,12 +1,11 @@
-import styled from './Header.module.css'
-import Button from '@mui/material/Button';
-
+import styles from './Header.module.css'
+import { Paper } from '@mui/material'
 
 const Header = () => {
   return (
-    <div>
-        <Button variant="contained">Hello World</Button>
-    </div>
+    <Paper className={styles.header} elevation={24} >
+      header
+    </Paper>
   )
 }
 
