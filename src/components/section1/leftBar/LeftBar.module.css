@@ -1,20 +1,40 @@
+.leftBar {
+    height: 600px;
+}
+
 .avatar, .contacts {
-    width: 100%;
-    height: 50%;
-}
-
-.stack {
-    height: 610px;
+    height: 100%;
 }
 
 
+/* xs */
+@media  screen and (max-width: 325px) {
+    .leftBar {
+        height: 100px;
+    }
+}
+
+/* sm */
 @media screen and (max-width: 599.5px) {
-    .stack {
-        height: 250px;
+    .leftBar {
+        height: 200px;
     }
 
     .avatar, .contacts {
         width: 100%;
-        height: 100%;
+    }
+}
+
+/* md */
+@media screen and (min-width: 600px) and (max-width: 899.5px) {
+    .leftBar {
+        height: 500px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .leftBar {
+        height: 600px;
     }
 }

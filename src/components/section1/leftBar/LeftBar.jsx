@@ -4,7 +4,7 @@ import { Paper, Stack } from '@mui/material'
 
 export const LeftBar = () => {
   return (
-    <Stack className={styles.stack} direction={{ xs: 'row', sm: 'column', lg: 'column' }} spacing={4} >
+    <Stack className={styles.leftBar} direction={{ xs: 'row', sm: 'column', lg: 'column' }} spacing={2} >
       <Paper className={styles.avatar} elevation={10} >
         avatar
       </Paper>

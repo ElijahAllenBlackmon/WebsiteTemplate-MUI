@@ -14,11 +14,11 @@ const Section1 = () => {
             <LeftBar />
         </Grid2>
 
-        <Grid2 lg={6} md={5} sm={8} xs={12} >
+        <Grid2 lg={6} md={6} sm={8} xs={12} >
             <Center />
         </Grid2>
 
-        <Grid2 lg={4} md={4} sm={12} xs={12} >
+        <Grid2 lg={4} md={3} sm={12} xs={12} >
             <RightBar />
         </Grid2>
 

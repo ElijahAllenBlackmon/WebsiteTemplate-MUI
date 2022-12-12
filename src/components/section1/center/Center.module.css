@@ -1,3 +1,25 @@
 .center {
-    height: 610px;
+    height: 600px;
+}
+
+/* xs */
+@media  screen and (max-width: 325px) {
+    .center {
+        height: 355px
+    }
+}
+
+/* sm */
+@media screen and (max-width: 599.5px) {
+    .center {
+        height: 500px;
+        margin-top: 1rem;
+    }
+}
+
+/* md */
+@media  screen and (max-width: 899.5px) {
+    .center {
+        height: 500px;
+    }
 }
