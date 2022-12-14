@@ -1,18 +1,18 @@
 .center {
-    height: 600px;
+    height: 70vh;
 }
 
 /* xs */
 @media  screen and (max-width: 325px) {
     .center {
-        height: 355px
+        height: 45.5vh;
     }
 }
 
 /* sm */
 @media screen and (max-width: 599.5px) {
     .center {
-        height: 500px;
+        height: 60vh;
         margin-top: 1rem;
     }
 }
@@ -20,6 +20,6 @@
 /* md */
 @media  screen and (max-width: 899.5px) {
     .center {
-        height: 500px;
+        height: 60vh;
     }
 }

@@ -1,18 +1,18 @@
 .rightBar {
-    height: 600px;
+    height: 70vh;
 }
 
 /* xs */
 @media  screen and (max-width: 325px) {
     .rightBar {
-        height: 355px
+        height: 45.5vh;
     }
 }
 
 /* md */
 @media  screen and (max-width: 899.5px) {
     .rightBar {
-        height: 400px;
+        height: 50vh;
         margin-top: 1rem;
     }
 }

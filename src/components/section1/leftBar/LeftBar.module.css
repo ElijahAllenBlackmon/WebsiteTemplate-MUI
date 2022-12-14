@@ -1,23 +1,24 @@
 .leftBar {
-    height: 600px;
+    height: 70vh;
 }
 
 .avatar, .contacts {
     height: 100%;
+    width: 100%;
 }
 
 
 /* xs */
-@media  screen and (max-width: 325px) {
+@media  screen and (max-width: 414.5px) {
     .leftBar {
-        height: 100px;
+        height: 15vh;
     }
 }
 
 /* sm */
-@media screen and (max-width: 599.5px) {
+@media screen and (min-width: 415px) and (max-width: 599.5px) {
     .leftBar {
-        height: 200px;
+        height: 30vh;
     }
 
     .avatar, .contacts {
@@ -28,13 +29,13 @@
 /* md */
 @media screen and (min-width: 600px) and (max-width: 899.5px) {
     .leftBar {
-        height: 500px;
+        height: 60vh;
     }
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
     .leftBar {
-        height: 600px;
+        height: 70vh;
     }
 }

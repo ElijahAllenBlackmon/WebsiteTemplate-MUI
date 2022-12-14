@@ -4,7 +4,7 @@ import { Paper } from '@mui/material'
 
 export const RightBar = () => {
   return (
-    <Paper className={styles.rightBar} elevation={10}>
+    <Paper sx={{ background: '#BE9B7B' }} className={styles.rightBar} elevation={10}>
       right
     </Paper>
   )
